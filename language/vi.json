@@ -1,52 +1,52 @@
 {
   "semantics": [
     {
-      "label": "Background image",
-      "description": "Image shown on background."
+      "label": "Ảnh nền",
+      "description": "Hình ảnh hiển thị trên nền."
     },
     {
-      "label": "Alternative text for background image",
-      "description": "If the browser can't load the image this text will be displayed instead. Also used by assistive technologies."
+      "label": "Văn bản thay thế cho hình nền",
+      "description": "Nếu trình duyệt không thể tải hình ảnh, văn bản này sẽ được hiển thị thay thế. Cũng được sử dụng bởi các công nghệ hỗ trợ."
     },
     {
-      "label": "Hotspot color",
-      "description": "The color of the hotspots"
+      "label": "Màu điểm nóng",
+      "description": "Màu của các điểm nóng"
     },
     {
       "entity": "hotspot",
-      "label": "Hotspots",
+      "label": "Điểm nóng",
       "field": {
-        "label": "Hotspot",
+        "label": "Điểm nóng",
         "fields": [
           {
-            "label": "Hotspot position",
-            "description": "Click on the thumbnail image to place the hotspot"
+            "label": "Vị trí điểm nóng",
+            "description": "Nhấp vào hình thu nhỏ để đặt điểm điểm nóng"
           },
           {
-            "label": "Cover entire background image",
-            "description": "When the user clicks the hotspot the popup will cover the entire background image"
+            "label": "Che phủ toàn bộ hình nền",
+            "description": "Khi người dùng nhấp vào điểm nóng, cửa sổ bật lên sẽ bao phủ toàn bộ hình nền"
           },
           {
-            "label": "Header",
-            "description": "Optional header for the popup"
+            "label": "Tiêu đề",
+            "description": "Tiêu đề tùy chọn cho cửa sổ bật lên"
           },
           {
-            "label": "Popup content",
+            "label": "Nội dung cửa sổ bật lên",
             "field": {
-              "label": "Content Item"
+              "label": "Mục nội dung"
             }
           }
         ]
       }
     },
     {
-      "label": "Hotspot label for assistive technologies",
-      "default": "Hotspot #num",
-      "description": "Will help announce what hotspot element has been navigated to if there is no header specified for a hotspot. #num can be used to replace the hotspot number."
+      "label": "Nhãn Điểm nóng cho công nghệ hỗ trợ",
+      "default": "Điểm nóng #num",
+      "description": "Sẽ giúp thông báo phần tử điểm nóng nào đã được điều hướng đến nếu không có tiêu đề được chỉ định cho một điểm nóng. #num có thể được sử dụng để thay thế số điểm nóng."
     },
     {
-      "label": "Close button label for assistive technologies",
-      "default": "Close"
+      "label": "Nhãn nút đóng cho các công nghệ hỗ trợ",
+      "default": "Đóng"
     }
   ]
 }
